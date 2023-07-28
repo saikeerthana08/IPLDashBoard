@@ -1,0 +1,138 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 100%;
+}
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 'Bree Serif';
+}
+.latest-match-card {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-match-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-logo-container {
+    width: 60%;
+  }
+}
+.latest-match-details-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-main {
+    width: 100%;
+  }
+}
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.latest-match-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.date,
+.venue,
+.status {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .date,
+  .venue,
+  .status {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .latest-match-logo {
+    min-width: 150px;
+    max-height: 200px;
+    min-height: 150px;
+  }
+}
+
+.latest-match-details-info {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-match-details-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-info {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .match-info-item {
+    width: 43%;
+    border: 0.5px solid #fff9fc;
+    padding: 8px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    max-height: 200px;
+  }
+}
+
+.label {
+  font-size: 14px;
+}
+
+.value {
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+  .value {
+    font-size: 14px;
+  }
+}

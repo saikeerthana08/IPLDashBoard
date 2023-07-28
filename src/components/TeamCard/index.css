@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.link-item {
+  text-decoration: none;
+  width: 45%;
+}
+
+.list-item-container {
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  min-height: 100px;
+}
+
+.team-card-image {
+  width: 50px;
+  height: 50px;
+}
+
+.item-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-left: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    padding: 20px 30px 20px 30px;
+    min-height: 150px;
+  }
+  .team-card-image {
+    width: 80px;
+    height: 80px;
+  }
+  .item-name {
+    font-size: 24px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+  }
+}
